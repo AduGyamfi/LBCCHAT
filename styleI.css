@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*width: 100vw;*/
+}
+
+#main {
+    border: 1px solid black;
+    width: 450px;
+    height: 10000px;
+    margin: 24px auto;
+    background: overlay;
+    background-size: absolute;
+
+}
+
+#message_area {
+    width: 98%;
+    border: 1px solid blue;
+    height: 9850px;
+}
+
+#main {
+    border: 10px solid blue;
+    width: 400px;
+    margin: 24px auto;
+    background: yellow;
+    /*background-image: url("great.jpg");*/
+    /*align-content:center;*/
+    opacity: 70%;
+}
+
+body {
+    background: red;
+    /*width: 100px;*/
+    margin: 10px;
+    /*background-image: url("");*/
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6UaZiQZ4PpmvtYLA8Gp7s70H1EbGp4i5cYlZFqttV4kE6XnXFFQ&s");
+}
